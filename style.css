@@ -1,0 +1,137 @@
+
+
+body {
+
+    background-color: #d9fbfc;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    
+}
+
+.swimmer{
+
+    justify-content: center;
+    position: absolute;
+}
+
+
+.cap {
+
+    position: relative;
+    width: 190px;
+    height: 120px;
+    background-color: #303333;
+    border-left: 20px solid #464a4a; 
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    
+}
+
+
+.goggles_left{
+
+    width: 70px;
+    height: 45px;
+    background-color: #54858f;
+    border-radius: 50%;
+    border: 8px solid #3f6269;
+    position:absolute;
+    margin-top: 10px;
+    left: 10px;
+    box-shadow: 100px solid #856899;
+    
+}
+
+.goggles_right{
+
+    width: 70px;
+    height: 45px;
+    background-color: #54858f;
+    border-radius: 50%;
+    border: 8px solid #3f6269;
+    position:absolute;
+    margin-top: 10px;
+    left: 110px;
+    
+}
+
+.mirror {
+
+    width: 10px;
+    height: 45px;
+    background-color: #bdd6db;
+    border-radius: 90% 90% 90% 90%;
+    position:absolute;
+    left: 30px;
+    transform: rotate(45deg);
+}
+
+.one {
+
+    width: 20px;
+    height: 10px;
+    background-color: #2f4a4f;
+    position: absolute;
+    margin-top: 36px;
+}
+
+.two {
+
+    width: 20px;
+    height: 10px;
+    background-color: #2f4a4f;
+    position: absolute;
+    margin-top: 36px;
+    left: 93px;
+}
+
+.three {
+
+    width: 20px;
+    height: 10px;
+    background-color: #2f4a4f;
+    position: absolute;
+    margin-top: 36px;
+    left: 188px;
+}
+
+.goggles_right:hover, .goggles_left:hover {
+
+    background-color:#5396a3;
+    transition: 0.3s;
+}
+
+.cap:hover {
+
+    background-color: #434a4a;
+    border-left: 20px solid #5e6666;
+    transition: 0.3s;
+  
+}
+
+.water{
+
+    width: 100%;
+    height: 100%;
+    background-color: #34bdeb;
+    margin-top: 640px;
+}
+
+.water:hover{
+
+    background-color: #78b8ce;
+}
+
+
+.bubble{
+
+    width: 100px;
+    height: 100px;
+    background-color: #bdd6db;
+    border-radius: 90% 90% 90% 90%;
+    position:relative;
+
+}
+
